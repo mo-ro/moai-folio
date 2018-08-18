@@ -2,14 +2,59 @@
   background-image: url(../images/header.svg);
   background-repeat: no-repeat;
   position: absolute;
-  width: 339px;
-  height: 558px;
-  right: -66px;
-  top: calc(672px - 554px / 2);
+  width: 275px;
+  height: 588px;
+  right: 0;
+  top: calc(672px - 588px / 2);
   z-index: 1;
 
   &-fixed {
     position: fixed;
-    top: calc(-554px / 2);
+    top: calc(-588px / 2);
+  }
+
+  &-navigation {
+    position: absolute;
+    right: 20px;
+    font-family: 'Skranji', cursive;
+    letter-spacing: 1px;
+    top: 94px;
+    width: 104px;
+  }
+
+  &-navigation-fixed {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+
+  &-link-list {
+    height: 118px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+    margin-bottom: 28px;
+  }
+
+  &-link-item {
+    font-size: 2.4rem;
+
+    a {
+      color: $white;
+      transition: .2s;
+
+      &:hover {
+        // color: $black-light;
+        opacity: .4;
+        filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, .9));
+      }
+    }
+  }
+  
+  &-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }

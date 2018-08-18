@@ -6,7 +6,7 @@ import Header from '../components/header'
 import '../style/index.scss'
 
 const Layout = ({ children, data }) => (
-  <div>
+  <div className="grobal-wrapper">
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
@@ -14,7 +14,7 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <Header siteTitle={data.site.siteMetadata.title} />
+    <Header />
     <div className="grobal-container">
       {children()}
     </div>

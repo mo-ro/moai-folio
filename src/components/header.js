@@ -2,6 +2,11 @@ import React from 'react'
 import Link from 'gatsby-link'
 import ClassNames from 'classnames';
 
+//img
+import TwitterImage from '../images/twitter.svg';
+import GithubImage from '../images/github.svg';
+import FacebookImage from '../images/facebook.svg';
+
 class Header extends React.Component {
 
   constructor() {
@@ -9,6 +14,7 @@ class Header extends React.Component {
     this.scroll;
     this.state = {
       headerFixed: false,
+      navigationFixed: false,
     }
   }
 
@@ -27,6 +33,12 @@ class Header extends React.Component {
     }else if(this.scroll < 672 && this.state.headerFixed) {
       this.setState({headerFixed: false})
     }
+    
+    if(this.scroll > 450 && !this.state.navigationFixed) {
+      this.setState({navigationFixed: true})
+    }else if(this.scroll < 450 && this.state.navigationFixed) {
+      this.setState({navigationFixed: false})
+    }
   };
 
 
@@ -34,9 +46,38 @@ class Header extends React.Component {
     const headerClass = ClassNames({
       "grobal-header": true,
       "grobal-header-fixed": this.state.headerFixed
-    })
+    });
+    const navigationClass = ClassNames({
+      "grobal-header-navigation": true,
+      "grobal-header-navigation-fixed": this.state.navigationFixed
+    });
     return (
-      <div className={headerClass}></div>
+      <div className={headerClass}>
+        <nav className={navigationClass}>
+          <ul className="grobal-header-link-list">
+            <li className="grobal-header-link-item">
+              <Link to="about">About</Link>
+            </li>
+            <li className="grobal-header-link-item">
+              <Link to="Works">Works</Link>
+            </li>
+            <li className="grobal-header-link-item">
+              <Link to="Contact">Contact</Link>
+            </li>
+          </ul>
+          <ul className="grobal-header-icons">
+            <li className="grobal-header-link-item">
+              <Link to="about"><img src={TwitterImage} alt=""/></Link>
+            </li>
+            <li className="grobal-header-link-item">
+              <Link to="about"><img src={GithubImage} alt=""/></Link>
+            </li>
+            <li className="grobal-header-link-item">
+              <Link to="about"><img src={FacebookImage} alt=""/></Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
     )
   }
 }

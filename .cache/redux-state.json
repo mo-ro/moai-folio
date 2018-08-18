@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "06dde1fa1441b88231e9fce21c71275a",
+        "contentDigest": "eb76e8373a6582b4876fd142eab878dc",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -360,7 +360,7 @@
       "resolve": "/Users/moro/develop/moai-folio",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "672351afc235f774f68ea295dd96864a",
+      "version": "4b4a60eba261d2678beac2b5c38088ff",
       "pluginOptions": {
         "plugins": []
       },
@@ -379,6 +379,18 @@
         "license": "MIT",
         "dependencies": [
           {
+            "name": "@fortawesome/fontawesome-svg-core",
+            "version": "prerelease"
+          },
+          {
+            "name": "@fortawesome/free-solid-svg-icons",
+            "version": "prerelease"
+          },
+          {
+            "name": "@fortawesome/react-fontawesome",
+            "version": "prerelease"
+          },
+          {
             "name": "classnames",
             "version": "^2.2.6"
           },
@@ -393,6 +405,10 @@
           {
             "name": "gatsby-plugin-react-helmet",
             "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-plugin-react-svg",
+            "version": "^1.1.1"
           },
           {
             "name": "gatsby-plugin-sass",
@@ -420,7 +436,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "69e8310e2bb6e9afec72f6d33f822885",
+        "contentDigest": "31890eae0716732635883aecb571c198",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -512,12 +528,12 @@
       "host": "localhost",
       "pathPrefix": "/moai",
       "polyfill": true,
-      "buildTime": "2018-08-18T08:34:08.090Z",
+      "buildTime": "2018-08-18T12:41:11.299Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7ca7dcfa5550395ebba09a999ef106be",
+        "contentDigest": "359c1b5b7bf00d2c5da5f8588cc15eca",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -538,7 +554,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5327e997b97175eb4240f31a1fe4d490",
+        "contentDigest": "b559718c1c63fe4580eb287946ce37df",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -559,7 +575,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "691cb80fbfac74b590f797384f485ac9",
+        "contentDigest": "966341e5ca1db52873d629880d385c5e",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -580,7 +596,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c11abc81fdc40f379a08f9af57a99ae2",
+        "contentDigest": "af6e7793a73b83ad26346f8d23d731ab",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -601,7 +617,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fc73beaf38acef701b1fbac48ee6660b",
+        "contentDigest": "18679e14dd0c0cb37b51ee56768fcdec",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -609,7 +625,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "84453d93238488cfbe41d2fc79fe0c05"
+    "PLUGINS_HASH": "7fc8a2bb55b22596b4901ce633d60f2f"
   },
   "componentDataDependencies": {
     "nodes": {
