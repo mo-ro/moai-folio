@@ -1,6 +1,10 @@
 module.exports = {
+  pathPrefix: `/moai`,
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'モアイフォリオ',
   },
-  plugins: ['gatsby-plugin-react-helmet'],
+  plugins: [
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sass'
+  ],
 }

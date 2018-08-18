@@ -1,0 +1,53 @@
+.scroll-icon {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 84px;
+  position: relative;
+
+  &::before, &::after {
+    content: "";
+    display: block;
+    width: 100vw;
+    height: 4px;
+    background-color: $black;
+    position: absolute;
+    top: 20px;
+    border-radius: 10px;
+  }
+
+  &::before {
+    right: calc(100% + 18px);
+  }
+
+  &::after {
+    left: calc(100% + 18px);
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  &-box {
+    height: 44px;
+    width: 26px;
+    background-color: $orange-thin;
+    border: 3px solid $black;
+    border-radius: 30px;
+    box-sizing: border-box;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    padding: 2px 0;
+    position: relative;
+  }
+
+
+  &-ball {
+    width: 16px;
+    height: 16px;
+    border-radius: 30px;
+    position: absolute;
+    background-color: $black;
+  }
+}

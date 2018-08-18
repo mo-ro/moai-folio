@@ -1,13 +1,25 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import ScrollIcon from '../components/ScrollIcon';
 
-const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
-  </div>
-)
+//img
+import HeroImage from "../images/top-hero.png";
+
+class IndexPage extends React.Component {
+  render() {
+    return (
+      // webgl化予定
+      <div className="top-hero">
+        <div className="top-hero-text-area">
+          <h1 className="top-title">Kotaro Morooka</h1>
+          <h3 className="top-sub-title">Frontend Engineer / Designer<span>(なりたい)</span></h3>
+        </div>
+        <div className="top-hero-scroll-area">
+          <ScrollIcon />
+        </div>
+      </div>
+    )
+  }
+}
 
 export default IndexPage
