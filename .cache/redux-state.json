@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "da5e4fa09bf1d48f8efbc12badd3381f",
+        "contentDigest": "06dde1fa1441b88231e9fce21c71275a",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -379,6 +379,10 @@
         "license": "MIT",
         "dependencies": [
           {
+            "name": "classnames",
+            "version": "^2.2.6"
+          },
+          {
             "name": "gatsby",
             "version": "^1.9.277"
           },
@@ -508,12 +512,12 @@
       "host": "localhost",
       "pathPrefix": "/moai",
       "polyfill": true,
-      "buildTime": "2018-08-17T18:06:32.145Z",
+      "buildTime": "2018-08-18T08:34:08.090Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8e2013c49c8eca65f08382bd9d0c0cfe",
+        "contentDigest": "7ca7dcfa5550395ebba09a999ef106be",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -534,7 +538,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "abbde3c42b122d3140cc5fd7b3b1e42a",
+        "contentDigest": "5327e997b97175eb4240f31a1fe4d490",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -555,7 +559,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b929f602a8a62c6478ebafb8a8833e52",
+        "contentDigest": "691cb80fbfac74b590f797384f485ac9",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -576,7 +580,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "82166aa0b555192df5cc325b1143a097",
+        "contentDigest": "c11abc81fdc40f379a08f9af57a99ae2",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -597,7 +601,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "74afa4a95e4d11476d271b660eae0c1e",
+        "contentDigest": "fc73beaf38acef701b1fbac48ee6660b",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -605,7 +609,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "bb945f42b0300d14a61dfbb22469e362"
+    "PLUGINS_HASH": "84453d93238488cfbe41d2fc79fe0c05"
   },
   "componentDataDependencies": {
     "nodes": {

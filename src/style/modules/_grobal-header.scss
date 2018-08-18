@@ -1,0 +1,15 @@
+.grobal-header {
+  background-image: url(../images/header.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 339px;
+  height: 558px;
+  right: -66px;
+  top: calc(672px - 554px / 2);
+  z-index: 1;
+
+  &-fixed {
+    position: fixed;
+    top: calc(-554px / 2);
+  }
+}

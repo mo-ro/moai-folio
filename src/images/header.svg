@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="339px" height="558px" viewBox="0 0 339 558" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>header</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M321.754142,552.257797 C503.616872,562.719536 663,461.803738 663,298.887452 C663,135.971166 514.390656,19.7140604 333,3.90142167 C242.655915,-3.97427827 224.318957,3.90142167 183.198769,21.4230736 C91.3940026,60.5418427 82.4903951,102.075362 48.442454,144.71534 C14.3945128,187.355318 -6.43072978,253.140886 3,298.887452 C6.3690946,315.23025 9.39213233,366.178226 39.6062396,409.788822 C74.1436092,459.639552 112.219712,491.98454 167.643895,514.703668 C225.068012,538.242595 211.602101,545.921248 321.754142,552.257797 Z" id="path-1"></path>
+    </defs>
+    <g id="header" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle" transform="translate(40.000000, 3.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" stroke="#2B2727" stroke-width="4" fill="#706A6A" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
