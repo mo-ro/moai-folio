@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import ClassNames from 'classnames';
 
 //img
 import TwitterImage from '../images/twitter.svg';
@@ -8,52 +7,10 @@ import GithubImage from '../images/github.svg';
 import FacebookImage from '../images/facebook.svg';
 
 class Header extends React.Component {
-
-  constructor() {
-    super();
-    this.scroll;
-    this.state = {
-      headerFixed: false,
-      navigationFixed: false,
-    }
-  }
-
-  componentDidMount() {
-    window.addEventListener('scroll', this.scrollTop);
-  }
-
-  scrollTop = (): number => {
-    this.scroll = Math.max(
-      window.pageYOffset,
-      document.documentElement.scrollTop,
-      document.body.scrollTop);
-
-    if(this.scroll > 672 && !this.state.headerFixed) {
-      this.setState({headerFixed: true})
-    }else if(this.scroll < 672 && this.state.headerFixed) {
-      this.setState({headerFixed: false})
-    }
-    
-    if(this.scroll > 450 && !this.state.navigationFixed) {
-      this.setState({navigationFixed: true})
-    }else if(this.scroll < 450 && this.state.navigationFixed) {
-      this.setState({navigationFixed: false})
-    }
-  };
-
-
   render() {
-    const headerClass = ClassNames({
-      "grobal-header": true,
-      "grobal-header-fixed": this.state.headerFixed
-    });
-    const navigationClass = ClassNames({
-      "grobal-header-navigation": true,
-      "grobal-header-navigation-fixed": this.state.navigationFixed
-    });
     return (
-      <header className={headerClass}>
-        <nav className={navigationClass}>
+      <header className="grobal-header grobal-header-fixed">
+        <nav className="grobal-header-navigation grobal-header-navigation-fixed">
           <ul className="grobal-header-link-list">
             <li className="grobal-header-link-item">
               <Link to="about">About</Link>

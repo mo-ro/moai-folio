@@ -15,9 +15,9 @@
 
   &-heading {
     color: $black;
-    opacity: .04;
+    opacity: .05;
     font-size: 24.4rem;
-    margin-left: -140px;
+    margin-left: -120px;
     margin-bottom: -100px;
   }
 
@@ -102,6 +102,17 @@
       font-size: 3.6rem;
       font-weight: bold;
       margin-bottom: 18px;
+    }
+  }
+
+  &-contact {
+    width: 1080px;
+    margin: 0 auto;
+    
+    &-text {
+      font-size: 3.6rem;
+      font-weight: bold;
+      margin-bottom: 66px;
     }
   }
 }

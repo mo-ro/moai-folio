@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "eb76e8373a6582b4876fd142eab878dc",
+        "contentDigest": "788e9d60615416db252730f58b52b436",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -528,12 +528,12 @@
       "host": "localhost",
       "pathPrefix": "/moai",
       "polyfill": true,
-      "buildTime": "2018-08-18T12:41:11.299Z",
+      "buildTime": "2018-08-19T14:34:33.148Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "359c1b5b7bf00d2c5da5f8588cc15eca",
+        "contentDigest": "8db5f6ea295ec461320756af67f1e838",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -554,7 +554,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b559718c1c63fe4580eb287946ce37df",
+        "contentDigest": "92c8bbef7d52ebfb4d123df058ef220f",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "layout": "index",
+      "jsonName": "contact.json",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/Users/moro/develop/moai-folio/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/moro/develop/moai-folio/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3db64135ea296b822f05c9ada31d91b6",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -575,7 +596,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "966341e5ca1db52873d629880d385c5e",
+        "contentDigest": "2177196d34b26cbf78bb610fbe9cb7b8",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -596,7 +617,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "af6e7793a73b83ad26346f8d23d731ab",
+        "contentDigest": "c2c920ad788d788aa5d559d2e0bd3b82",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -617,7 +638,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "18679e14dd0c0cb37b51ee56768fcdec",
+        "contentDigest": "ef17a4da56578c1bbca918745a34b3e5",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }

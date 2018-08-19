@@ -37,6 +37,15 @@ class IndexPage extends React.Component {
           <Works />
           <LinkButton text="Works" to="works" />
         </div>
+        <div className="top-contact">
+          <h2 className="top-heading">Contact</h2>
+          <p className="top-contact-text">
+            興味、<br/>
+            持っていただけましたか？<br/>
+            感想だけでもいただけると幸いです。
+          </p>
+          <LinkButton text="Contact" to="/contact/" />
+        </div>
       </div>
       
     )

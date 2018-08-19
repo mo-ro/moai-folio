@@ -1,11 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-
 import Header from '../components/header'
+import FixedHeader from '../components/FixedHeader'
+
 import '../style/index.scss'
 
-const Layout = ({ children, data }) => (
+const Layout = ({ children, data, location }) => (
   <div className="grobal-wrapper">
     <Helmet
       title={data.site.siteMetadata.title}
@@ -14,7 +15,7 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <Header />
+    {location.pathname === "/" ? <Header /> : <FixedHeader />}
     <div className="grobal-container">
       {children()}
     </div>
