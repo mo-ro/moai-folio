@@ -1,10 +1,11 @@
 import React from 'react';
 import WorkCard from './WorkCard';
 
-class Works extends React.Component {
+class WorkList extends React.Component {
   render() {
     const items = [];
-    for (let i = 0; i < 3; i++) {
+    const num = this.props.type === "all" ? 10 : 3;
+    for (let i = 0; i < num; i++) {
       items.push(
         <WorkCard />
       )
@@ -17,4 +18,4 @@ class Works extends React.Component {
   }
 }
 
-export default Works
+export default WorkList

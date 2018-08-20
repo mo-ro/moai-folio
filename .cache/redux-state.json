@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "788e9d60615416db252730f58b52b436",
+        "contentDigest": "28266d4ebe5534e618176df40794def6",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -528,12 +528,12 @@
       "host": "localhost",
       "pathPrefix": "/moai",
       "polyfill": true,
-      "buildTime": "2018-08-19T14:34:33.148Z",
+      "buildTime": "2018-08-20T09:28:59.406Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8db5f6ea295ec461320756af67f1e838",
+        "contentDigest": "0e281dd5af8a88a336801bb3c006cfcb",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -554,7 +554,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "92c8bbef7d52ebfb4d123df058ef220f",
+        "contentDigest": "934b8758640013920f6f1e207ce47671",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/moro/develop/moai-folio/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/moro/develop/moai-folio/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "06c0848b1bf44b4cf835369b0815c34b",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -575,7 +596,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3db64135ea296b822f05c9ada31d91b6",
+        "contentDigest": "a2637c7b0b18cd07eabe3173b7e301c7",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -596,7 +617,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2177196d34b26cbf78bb610fbe9cb7b8",
+        "contentDigest": "b73fecc34364277708122e4f0295ab22",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -617,7 +638,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c2c920ad788d788aa5d559d2e0bd3b82",
+        "contentDigest": "ca962b2fd45c08a991a3dcaeacd6963b",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -638,8 +659,29 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ef17a4da56578c1bbca918745a34b3e5",
+        "contentDigest": "c76c4d902c762fc95685c914fcc15941",
         "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /works/": {
+      "layout": "index",
+      "jsonName": "works.json",
+      "internalComponentName": "ComponentWorks",
+      "path": "/works/",
+      "component": "/Users/moro/develop/moai-folio/src/pages/works.js",
+      "componentChunkName": "component---src-pages-works-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/moro/develop/moai-folio/src/pages/works.js",
+      "id": "SitePage /works/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b7cc831d255fc713799d776337841c73",
+        "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     }

@@ -1,0 +1,32 @@
+.page-heading {
+  margin-bottom: 48px;
+
+  &-main {
+    font-size: 10rem;
+  }
+
+  &-sub {
+    font-size: 2.4rem;
+    display: inline;
+    position: relative;
+
+    &::before, &::after {
+      content: "";
+      display: block;
+      width: 100vw;
+      height: 4px;
+      background-color: $black;
+      position: absolute;
+      top: 14px;
+      border-radius: 10px;
+    }
+
+    &::before {
+      right: calc(100% + 18px);
+    }
+
+    &::after {
+      left: calc(100% + 18px);
+    }
+  }
+}

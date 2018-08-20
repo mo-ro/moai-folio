@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import ScrollIcon from '../components/ScrollIcon';
 import LinkButton from '../components/Button';
-import Works from '../components/Works';
+import WorkList from '../components/WorkList';
 
 //img
 import HeroImage from "../images/top-hero.png";
@@ -29,13 +29,19 @@ class IndexPage extends React.Component {
             普段はフロントエンド 、趣味程度にデザインや映像制作も行っています。<br/>
             将来はwebにとどまることのないクリエイティブを行えるモアイになれたらいいなと思っています。
           </div>
-          <LinkButton text="About" to="about" />
+          <div className="button-wrapper">
+            <h3 className="about-button-heading">もろおかを見てみる</h3>
+            <LinkButton text="About" to="/about/"/>
+          </div>
         </div>
         <div className="top-works">
           <h2 className="top-heading">Works</h2>
           <h3 className="top-works-heading">秀逸なモアイたち</h3>
-          <Works />
-          <LinkButton text="Works" to="works" />
+          <WorkList />
+          <div className="button-wrapper">
+            <h3 className="about-button-heading">もあいの一覧</h3>
+            <LinkButton text="Works" to="/works/"/>
+          </div>
         </div>
         <div className="top-contact">
           <h2 className="top-heading">Contact</h2>
@@ -44,7 +50,10 @@ class IndexPage extends React.Component {
             持っていただけましたか？<br/>
             感想だけでもいただけると幸いです。
           </p>
-          <LinkButton text="Contact" to="/contact/" />
+          <div className="button-wrapper">
+            <h3 className="about-button-heading">かんそうを述べる</h3>
+            <LinkButton text="Contact" to="/contact/"/>
+          </div>
         </div>
       </div>
       
