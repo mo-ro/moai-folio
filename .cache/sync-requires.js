@@ -24,6 +24,6 @@ exports.json = {
   "contact.json": require("/Users/moro/develop/moai-folio/.cache/json/contact.json"),
   "index.json": require("/Users/moro/develop/moai-folio/.cache/json/index.json"),
   "page-2.json": require("/Users/moro/develop/moai-folio/.cache/json/page-2.json"),
-  "404-html.json": require("/Users/moro/develop/moai-folio/.cache/json/404-html.json"),
-  "works.json": require("/Users/moro/develop/moai-folio/.cache/json/works.json")
+  "works.json": require("/Users/moro/develop/moai-folio/.cache/json/works.json"),
+  "404-html.json": require("/Users/moro/develop/moai-folio/.cache/json/404-html.json")
 }

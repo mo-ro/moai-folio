@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "28266d4ebe5534e618176df40794def6",
+        "contentDigest": "feadb828c754d180e985b685accb20c9",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -391,6 +391,10 @@
             "version": "prerelease"
           },
           {
+            "name": "apollo-boost",
+            "version": "^0.1.14"
+          },
+          {
             "name": "classnames",
             "version": "^2.2.6"
           },
@@ -415,8 +419,20 @@
             "version": "^1.0.26"
           },
           {
+            "name": "graphql-tag",
+            "version": "^2.9.2"
+          },
+          {
+            "name": "react-apollo",
+            "version": "^2.1.11"
+          },
+          {
             "name": "react-helmet",
             "version": "^5.2.0"
+          },
+          {
+            "name": "react-markdown",
+            "version": "^3.4.1"
           },
           {
             "name": "react-router-dom",
@@ -528,12 +544,12 @@
       "host": "localhost",
       "pathPrefix": "/moai",
       "polyfill": true,
-      "buildTime": "2018-08-20T09:28:59.406Z",
+      "buildTime": "2018-08-21T01:10:32.349Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0e281dd5af8a88a336801bb3c006cfcb",
+        "contentDigest": "22aa71845796bc7c68cb2117d6794778",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -554,7 +570,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "934b8758640013920f6f1e207ce47671",
+        "contentDigest": "bd663a605e06faf3f5b1b1b9048221e6",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -575,7 +591,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "06c0848b1bf44b4cf835369b0815c34b",
+        "contentDigest": "737a331ae22b10602782ea66aee4dec5",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -596,7 +612,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a2637c7b0b18cd07eabe3173b7e301c7",
+        "contentDigest": "e3487300c08a23b4c69ba0f62234c349",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -617,7 +633,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b73fecc34364277708122e4f0295ab22",
+        "contentDigest": "1202a87f57e920c5cdefab425dfd2ba6",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -638,7 +654,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ca962b2fd45c08a991a3dcaeacd6963b",
+        "contentDigest": "a9880a7bff0ebace83e8d3ef240da7e9",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /works/": {
+      "layout": "index",
+      "jsonName": "works.json",
+      "internalComponentName": "ComponentWorks",
+      "path": "/works/",
+      "component": "/Users/moro/develop/moai-folio/src/pages/works.js",
+      "componentChunkName": "component---src-pages-works-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/moro/develop/moai-folio/src/pages/works.js",
+      "id": "SitePage /works/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "29423603dc6a976a89d7c6f3fe655834",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -659,43 +696,18 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c76c4d902c762fc95685c914fcc15941",
+        "contentDigest": "a9508fb697202a220ba633fbe32c3ef4",
         "description": "Plugin prod-404",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /works/": {
-      "layout": "index",
-      "jsonName": "works.json",
-      "internalComponentName": "ComponentWorks",
-      "path": "/works/",
-      "component": "/Users/moro/develop/moai-folio/src/pages/works.js",
-      "componentChunkName": "component---src-pages-works-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/moro/develop/moai-folio/src/pages/works.js",
-      "id": "SitePage /works/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "b7cc831d255fc713799d776337841c73",
-        "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "7fc8a2bb55b22596b4901ce633d60f2f"
+    "PLUGINS_HASH": "c663dcdd4da93f93f79139e27fd266f4"
   },
   "componentDataDependencies": {
-    "nodes": {
-      "Site": [
-        "LAYOUT___index"
-      ]
-    },
+    "nodes": {},
     "connections": {
       "SitePage": [
         "/dev-404-page/"

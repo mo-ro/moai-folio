@@ -42,17 +42,17 @@
         "path": "/page-2/"
     },
     {
-        "componentChunkName": "component---src-pages-404-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "404-html.json",
-        "path": "/404.html"
-    },
-    {
         "componentChunkName": "component---src-pages-works-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "works.json",
         "path": "/works/"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "404-html.json",
+        "path": "/404.html"
     }
 ]

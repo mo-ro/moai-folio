@@ -19,8 +19,8 @@ exports.json = {
   "contact.json": require("gatsby-module-loader?name=path---contact!/Users/moro/develop/moai-folio/.cache/json/contact.json"),
   "index.json": require("gatsby-module-loader?name=path---index!/Users/moro/develop/moai-folio/.cache/json/index.json"),
   "page-2.json": require("gatsby-module-loader?name=path---page-2!/Users/moro/develop/moai-folio/.cache/json/page-2.json"),
-  "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/moro/develop/moai-folio/.cache/json/404-html.json"),
-  "works.json": require("gatsby-module-loader?name=path---works!/Users/moro/develop/moai-folio/.cache/json/works.json")
+  "works.json": require("gatsby-module-loader?name=path---works!/Users/moro/develop/moai-folio/.cache/json/works.json"),
+  "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/moro/develop/moai-folio/.cache/json/404-html.json")
 }
 
 exports.layouts = {
