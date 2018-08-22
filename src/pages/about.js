@@ -6,6 +6,7 @@ import Button from '../components/Button'
 import TwitterImage from '../images/twitter.svg';
 import GithubImage from '../images/github.svg';
 import FacebookImage from '../images/facebook.svg';
+import ProfileImage from '../images/moai-girl.png';
 
 class About extends React.Component {
   render() {
@@ -14,16 +15,18 @@ class About extends React.Component {
         <PageHeading mainHeading="About" subHeading="どうも、師岡です。" />
         <div className="about-content">
           <div className="about-left">
-            <img src="#" alt="" className="about-profile-img"/>
+            <figure className="about-profile-figure">
+              <img src={ProfileImage} alt="" className="about-profile-img"/>
+            </figure>
             <ul className="about-links">
               <li className="about-link-item">
-                <Link to="about"><img src={TwitterImage} alt=""/></Link>
+                <a href="https://twitter.com/moaioka" target="_black"><img src={TwitterImage} alt=""/></a>
               </li>
               <li className="about-link-item">
-                <Link to="about"><img src={GithubImage} alt=""/></Link>
+                <a href="https://github.com/mo-ro?tab=overview&from=2018-08-01&to=2018-08-22" target="_black"><img src={GithubImage} alt=""/></a>
               </li>
               <li className="about-link-item">
-                <Link to="about"><img src={FacebookImage} alt=""/></Link>
+                <a href="https://github.com/mo-ro?tab=overview&from=2018-08-01&to=2018-08-22" target="_black"><img src={FacebookImage} alt=""/></a>
               </li>
             </ul>
           </div>
@@ -36,7 +39,7 @@ class About extends React.Component {
               </li>
               <li className="about-profile-item">
                 <h4 className="about-profile-left">Skills</h4>
-                <div className="about-profile-right">HTML / CSS / JavaScript / React / illustrator / Photoshop / After Effects</div>
+                <div className="about-profile-right">HTML / CSS / JavaScript / React / Illustrator / Photoshop / After Effects</div>
               </li>
               <li className="about-profile-item">
                 <h4 className="about-profile-left">Hobbies</h4>

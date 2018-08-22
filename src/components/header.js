@@ -7,6 +7,18 @@ import TwitterImage from '../images/twitter.svg';
 import GithubImage from '../images/github.svg';
 import FacebookImage from '../images/facebook.svg';
 
+import bodymovin from '../libs/bodymoovin';
+import animationData from '../libs/data.json';
+
+// var animData = {
+//     container: document.getElementById('bodymovin'),
+//         renderer: 'svg',
+//         loop: true,
+//         autoplay: true,
+//         animationData: animationData
+// };
+// var anim = bodymovin.loadAnimation(animData);
+
 class Header extends React.Component {
 
   constructor() {

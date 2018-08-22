@@ -1,0 +1,56 @@
+.moai {
+  &-stand {
+    $element: #{&};
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.2));
+
+    &-link {
+      position: absolute;
+      bottom: 180px;
+      left: 80px;
+      overflow: hidden;
+
+      &:hover {
+        .right-leg {
+          transform: rotate(81deg);
+        }
+        .moai-stand-text-box {
+          &::after {
+            left: 0;
+          }
+        }
+      }
+    }
+
+    .right-leg {
+      transition: .2s;
+      transform-origin: 80px 270px;
+      transform: rotate(0);
+    }
+
+    &-text-box {
+      width: 54px;
+      height: 30px;
+      overflow: hidden;
+      bottom: 3px;
+      position: absolute;
+
+      &::after {
+        content: "Top";
+        display: block;
+        position: absolute;
+        color: $white;
+        left: 100%;
+        font-size: 2.4rem;
+        transition: .2s;
+      }
+    }
+  }
+
+  &-stand-wrap {
+    width: 100px;
+    height: 100px;
+  }
+}

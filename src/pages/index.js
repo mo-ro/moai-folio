@@ -61,6 +61,7 @@ class IndexPage extends React.Component {
               {/* // webgl化予定 */}
               <div className="top-hero">
                 <div className="top-hero-text-area">
+                <div id="bodymovin"></div>
                   <h1 className="top-title">Kotaro Morooka</h1>
                   <h3 className="top-sub-title">Frontend Engineer / Designer<span>(なりたい)</span></h3>
                 </div>

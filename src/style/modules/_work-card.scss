@@ -3,6 +3,12 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 66px;
+
+  &::after {
+    width: 320px;
+    display: block;
+    content: "";
+  }
 }
 
 .work-card {
