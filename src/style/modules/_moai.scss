@@ -11,6 +11,7 @@
       bottom: 180px;
       left: 80px;
       overflow: hidden;
+      pointer-events: all;
 
       &:hover {
         .right-leg {
@@ -52,5 +53,36 @@
   &-stand-wrap {
     width: 100px;
     height: 100px;
+  }
+
+  &-standard {
+    width: 160px;
+
+    &-figure {
+      position: absolute;
+      position: absolute;
+      right: -60px;
+      top: 320px;
+
+      &:hover {
+        &::after {
+          transform: scale(1.2);
+        }
+      }
+
+      &::after {
+        background-image: url(../moais/message.svg);
+        content: "";
+        display: block;
+        position: absolute;
+        transform: scale(0);
+        transform-origin: right bottom;
+        transition: .2s;
+        top: -30px;
+        right: 120px;
+        width: 100px;
+        height: 100px;
+      }
+    }
   }
 }

@@ -55,15 +55,17 @@ class Works extends React.Component {
           return (
             <div className="works">
               <PageHeading mainHeading="Works" subHeading="秀逸な作品集" />
-              <WorkList issues={issues} />
-              <div className="about-buttons">
-                <div className="button-wrapper">
-                  <h3 className="about-button-heading">どんな人？</h3>
-                  <Button text="About" to="/about/"/>
-                </div>
-                <div className="about-button-wrapper">
-                  <h3 className="about-button-heading">れんらくをとってみる</h3>
-                  <Button text="Contact" to="/contact/"/>
+              <div className="works-content">
+                <WorkList issues={issues} />
+                <div className="about-buttons">
+                  <div className="button-wrapper">
+                    <h3 className="about-button-heading">どんな人？</h3>
+                    <Button text="About" to="/about/"/>
+                  </div>
+                  <div className="about-button-wrapper">
+                    <h3 className="about-button-heading">れんらくをとってみる</h3>
+                    <Button text="Contact" to="/contact/"/>
+                  </div>
                 </div>
               </div>
             </div>

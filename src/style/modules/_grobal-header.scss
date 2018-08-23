@@ -7,6 +7,7 @@
   right: 0;
   top: calc(672px - 588px / 2);
   z-index: 1;
+  pointer-events: none;
 
   &-fixed {
     position: fixed;
@@ -20,6 +21,7 @@
     letter-spacing: 1px;
     top: 94px;
     width: 104px;
+    pointer-events: all;
   }
 
   &-navigation-fixed {

@@ -11,6 +11,20 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+  }
+
+  &-content {
+    box-sizing: border-box;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+
+    @include mq-medium {
+      margin: 0;
+    }
   }
 
   &-heading {
@@ -19,6 +33,7 @@
     font-size: 24.4rem;
     margin-left: -120px;
     margin-bottom: -100px;
+    pointer-events: none;
   }
 
   &-title {
@@ -61,9 +76,6 @@
   }
 
   &-about {
-    // height: 1000px;
-    width: 1080px;
-    margin: 0 auto;
 
     &-text-area {
       font-size: 1.6rem;
@@ -93,8 +105,6 @@
   }
 
   &-works {
-    width: 1080px;
-    margin: 0 auto;
 
     &-heading {
       font-size: 3.6rem;
@@ -104,8 +114,6 @@
   }
 
   &-contact {
-    width: 1080px;
-    margin: 0 auto;
     
     &-text {
       font-size: 3.6rem;

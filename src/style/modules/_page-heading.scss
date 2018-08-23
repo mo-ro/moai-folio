@@ -1,6 +1,10 @@
 .page-heading {
   margin-bottom: 48px;
 
+  @include mq-medium {
+    padding: 0 20px;
+  }
+
   &-main {
     font-size: 10rem;
   }
