@@ -68,7 +68,7 @@ class About extends React.Component {
                       <span>2018年5月</span>帰国
                     </li>
                     <li className="about-career-item">
-                      <span>以下予定</span>—————————————————————————————————
+                      <span>以下予定</span>———————————————————————————
                     </li>
                     <li className="about-career-item">
                       <span>2018年10月</span>カナダへ再度留学

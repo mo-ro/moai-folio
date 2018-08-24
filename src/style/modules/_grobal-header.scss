@@ -8,10 +8,19 @@
   top: calc(672px - 588px / 2);
   z-index: 1;
   pointer-events: none;
+  will-change: position;
+
+  @include mq-medium {
+    // display: none;
+  }
 
   &-fixed {
     position: fixed;
     top: calc(-588px / 2);
+
+    @include mq-medium {
+      top: 70%;
+    }
   }
 
   &-navigation {

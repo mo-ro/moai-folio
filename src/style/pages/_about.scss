@@ -1,13 +1,32 @@
 .about {
-  padding: 20px 100px;
+  box-sizing: border-box;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 20px;
+
+  @include mq-medium {
+    margin: 0;
+  }
 
   &-content {
     display: flex;
     margin-bottom: 30px;
+
+    @include mq-medium {
+      flex-direction: column;
+    }
   }
 
   &-left {
     margin-right: 42px;
+
+    @include mq-medium {
+      margin-right: 0;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 40px;
+    }
   }
 
   &-profile-figure {
@@ -60,6 +79,10 @@
     font-size: 3.6rem;
     margin-bottom: 32px;
 
+    @include mq-medium {
+      font-size: 2.8rem;
+    }
+
     span {
       font-size: 1.6rem;
       margin-left: 10px;
@@ -71,10 +94,25 @@
     display: flex;
     font-size: 1.6rem;
     margin-bottom: 28px;
+
+    @include mq-medium {
+      flex-direction: column;
+      margin-bottom: 30px;
+    }
   }
 
   &-profile-left {
     width: 130px;
+
+    @include mq-medium {
+      margin-bottom: 10px;
+    }
+  }
+
+  &-profile-right {
+    @include mq-small {
+      font-size: 1.4rem;
+    }
   }
 
   &-career-item {
@@ -83,12 +121,25 @@
     span {
       display: block;
       width: 130px;
+
+      @include mq-small {
+        width: 110px;
+        min-width: 110px;
+      }
     }
   }
 
   &-buttons {
     justify-content: space-around;
     display: flex;
+
+    @include mq-small {
+      flex-direction: column;
+
+      .button-wrapper:first-child {
+        margin-bottom: 40px;
+      }
+    }
   }
 
   &-button-heading {

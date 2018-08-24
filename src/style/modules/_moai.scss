@@ -64,6 +64,10 @@
       right: -60px;
       top: 320px;
 
+      @include mq-medium {
+        display: none;
+      }
+
       &:hover {
         &::after {
           transform: scale(1.2);
